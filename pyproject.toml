@@ -1,0 +1,30 @@
+[project]
+name = "tools-lib"
+version = "0.1.0"
+requires-python = ">=3.13"
+dependencies = []
+description = "Add your description here"
+readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE"]
+keywords = ["tools"]
+classifiers = [
+  "Programming Language :: Python"
+]
+authors = [
+    { name = "grandatlant", email = "grandatlant@gmail.com" }
+]
+
+[project.urls]
+Repository = "https://github.com/grandatlant/tools-lib.git"
+
+[build-system]
+requires = ["uv_build>=0.8.17,<0.9.0"]
+build-backend = "uv_build"
+
+[tool.ruff]
+line-length = 79
+
+[tool.ruff.format]
+quote-style = "single"
+
