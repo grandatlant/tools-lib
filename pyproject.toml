@@ -1,9 +1,9 @@
 [project]
 name = "tools"
-version = "0.1.0"
+version = "0.1.1"
 requires-python = ">=3.8"
 dependencies = []
-description = "Tools package for python3"
+description = "Tools distribution package for python3"
 readme = "README.md"
 license = "MIT"
 license-files = ["LICENSE"]
@@ -17,14 +17,9 @@ authors = [
 
 [project.urls]
 Repository = "https://github.com/grandatlant/tools-lib.git"
+Sources = "https://github.com/grandatlant/tools.git"
 
 [build-system]
 requires = ["uv_build>=0.8.17,<0.9.0"]
 build-backend = "uv_build"
-
-[tool.ruff]
-line-length = 79
-
-[tool.ruff.format]
-quote-style = "single"
 
