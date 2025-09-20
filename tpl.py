@@ -2,10 +2,9 @@
 # -*- coding: utf-8 -*-
 # /// script
 # requires-python = ">=3.8"
-# dependencies = [
-# ]
+# dependencies = []
 # ///
-"""Doc"""
+"""Doc."""
 
 import sys
 
@@ -13,7 +12,7 @@ import sys
 ##  MAIN ENTRY POINT
 def main(args=None):
     args = sys.argv if args is None else args
-    assert isinstance(args, (list, tuple))
+    assert isinstance(args, (list, tuple, dict, set))
     print(args)
     return 0
 
