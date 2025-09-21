@@ -1,6 +1,6 @@
 [project]
 name = "tools"
-version = "0.1.1"
+version = "0.1.2"
 requires-python = ">=3.8"
 dependencies = []
 description = "Tools distribution package for python3"
@@ -22,4 +22,9 @@ Sources = "https://github.com/grandatlant/tools.git"
 [build-system]
 requires = ["uv_build>=0.8.17,<0.9.0"]
 build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "pytest>=8.3.5",
+]
 
